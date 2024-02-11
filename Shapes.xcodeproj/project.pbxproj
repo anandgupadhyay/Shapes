@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30081974297735FB008354C2 /* TuberoseFlower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30081973297735FB008354C2 /* TuberoseFlower.swift */; };
+		300819762977369B008354C2 /* RoseMyrtleFlower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300819752977369B008354C2 /* RoseMyrtleFlower.swift */; };
+		300F496C297C73D70098F8AF /* IrisDomesticaFlower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300F496B297C73D70098F8AF /* IrisDomesticaFlower.swift */; };
+		300F496E297C76260098F8AF /* IrisDomesticaPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300F496D297C76260098F8AF /* IrisDomesticaPath.swift */; };
+		302B8A3E29755B8D0037997A /* ChrysanthemumPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302B8A3D29755B8D0037997A /* ChrysanthemumPath.swift */; };
+		302B8A4029755EB50037997A /* YellowDaisyFlower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302B8A3F29755EB50037997A /* YellowDaisyFlower.swift */; };
+		302B8A42297587C80037997A /* NormalFlowerPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302B8A41297587C80037997A /* NormalFlowerPath.swift */; };
+		302B8A4429758B090037997A /* NormalFlower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302B8A4329758B090037997A /* NormalFlower.swift */; };
+		302B8A4629758EA00037997A /* MarigoldFlower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302B8A4529758EA00037997A /* MarigoldFlower.swift */; };
+		302B8A48297596FB0037997A /* CheryBlossomFlowerPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302B8A47297596FB0037997A /* CheryBlossomFlowerPath.swift */; };
+		302B8A4A2975A3D40037997A /* RoseFlower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302B8A492975A3D40037997A /* RoseFlower.swift */; };
+		302B8A4C2975AB600037997A /* DaisyFlower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302B8A4B2975AB600037997A /* DaisyFlower.swift */; };
+		302B8A4E2975B5CB0037997A /* GattungCamelliaFlower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302B8A4D2975B5CB0037997A /* GattungCamelliaFlower.swift */; };
+		30A629922979BCF100437F01 /* HeartShapePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A629912979BCF100437F01 /* HeartShapePath.swift */; };
+		30A629942979BDFE00437F01 /* FourLeafClover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A629932979BDFE00437F01 /* FourLeafClover.swift */; };
+		30CD64322981E27A0074ACD4 /* OrchidsFlower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CD64312981E27A0074ACD4 /* OrchidsFlower.swift */; };
+		30CD64342981E96A0074ACD4 /* OrchidsPatelPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CD64332981E96A0074ACD4 /* OrchidsPatelPath.swift */; };
+		30EAD51D29766A3A00332218 /* LotusFlower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EAD51C29766A3A00332218 /* LotusFlower.swift */; };
+		30EAD51F2976732400332218 /* LotusFlowerPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EAD51E2976732400332218 /* LotusFlowerPath.swift */; };
+		30EAD52129767ADA00332218 /* Sunflower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EAD52029767ADA00332218 /* Sunflower.swift */; };
+		CE167CA7296D35C900A07577 /* FlowersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE167CA6296D35C900A07577 /* FlowersApp.swift */; };
+		CE167CA9296D35C900A07577 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE167CA8296D35C900A07577 /* ContentView.swift */; };
+		CE167CAB296D35CB00A07577 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE167CAA296D35CB00A07577 /* Assets.xcassets */; };
+		CE167CAE296D35CB00A07577 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE167CAD296D35CB00A07577 /* Preview Assets.xcassets */; };
+		CE167CB5296D4F2000A07577 /* ApricotFlower.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE167CB4296D4F2000A07577 /* ApricotFlower.swift */; };
+		CE167CB7296D4F4400A07577 /* CherryBlossom .swift in Sources */ = {isa = PBXBuildFile; fileRef = CE167CB6296D4F4400A07577 /* CherryBlossom .swift */; };
+		CE167CB9296D52C400A07577 /* DrawingPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE167CB8296D52C400A07577 /* DrawingPath.swift */; };
+		CE167CBB296D540700A07577 /* Hexadexagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE167CBA296D540700A07577 /* Hexadexagon.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30081973297735FB008354C2 /* TuberoseFlower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuberoseFlower.swift; sourceTree = "<group>"; };
+		300819752977369B008354C2 /* RoseMyrtleFlower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoseMyrtleFlower.swift; sourceTree = "<group>"; };
+		300F496B297C73D70098F8AF /* IrisDomesticaFlower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IrisDomesticaFlower.swift; sourceTree = "<group>"; };
+		300F496D297C76260098F8AF /* IrisDomesticaPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IrisDomesticaPath.swift; sourceTree = "<group>"; };
+		302B8A3D29755B8D0037997A /* ChrysanthemumPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChrysanthemumPath.swift; sourceTree = "<group>"; };
+		302B8A3F29755EB50037997A /* YellowDaisyFlower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowDaisyFlower.swift; sourceTree = "<group>"; };
+		302B8A41297587C80037997A /* NormalFlowerPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalFlowerPath.swift; sourceTree = "<group>"; };
+		302B8A4329758B090037997A /* NormalFlower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalFlower.swift; sourceTree = "<group>"; };
+		302B8A4529758EA00037997A /* MarigoldFlower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarigoldFlower.swift; sourceTree = "<group>"; };
+		302B8A47297596FB0037997A /* CheryBlossomFlowerPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheryBlossomFlowerPath.swift; sourceTree = "<group>"; };
+		302B8A492975A3D40037997A /* RoseFlower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoseFlower.swift; sourceTree = "<group>"; };
+		302B8A4B2975AB600037997A /* DaisyFlower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaisyFlower.swift; sourceTree = "<group>"; };
+		302B8A4D2975B5CB0037997A /* GattungCamelliaFlower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GattungCamelliaFlower.swift; sourceTree = "<group>"; };
+		30A629912979BCF100437F01 /* HeartShapePath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartShapePath.swift; sourceTree = "<group>"; };
+		30A629932979BDFE00437F01 /* FourLeafClover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourLeafClover.swift; sourceTree = "<group>"; };
+		30CD64312981E27A0074ACD4 /* OrchidsFlower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrchidsFlower.swift; sourceTree = "<group>"; };
+		30CD64332981E96A0074ACD4 /* OrchidsPatelPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrchidsPatelPath.swift; sourceTree = "<group>"; };
+		30EAD51C29766A3A00332218 /* LotusFlower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotusFlower.swift; sourceTree = "<group>"; };
+		30EAD51E2976732400332218 /* LotusFlowerPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotusFlowerPath.swift; sourceTree = "<group>"; };
+		30EAD52029767ADA00332218 /* Sunflower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sunflower.swift; sourceTree = "<group>"; };
+		CE167CA3296D35C900A07577 /* Shapes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shapes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE167CA6296D35C900A07577 /* FlowersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowersApp.swift; sourceTree = "<group>"; };
+		CE167CA8296D35C900A07577 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE167CAA296D35CB00A07577 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE167CAD296D35CB00A07577 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE167CB4296D4F2000A07577 /* ApricotFlower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApricotFlower.swift; sourceTree = "<group>"; };
+		CE167CB6296D4F4400A07577 /* CherryBlossom .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CherryBlossom .swift"; sourceTree = "<group>"; };
+		CE167CB8296D52C400A07577 /* DrawingPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingPath.swift; sourceTree = "<group>"; };
+		CE167CBA296D540700A07577 /* Hexadexagon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hexadexagon.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE167CA0296D35C900A07577 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		302B8A3C29755B490037997A /* Path */ = {
+			isa = PBXGroup;
+			children = (
+				CE167CB8296D52C400A07577 /* DrawingPath.swift */,
+				302B8A3D29755B8D0037997A /* ChrysanthemumPath.swift */,
+				302B8A41297587C80037997A /* NormalFlowerPath.swift */,
+				302B8A47297596FB0037997A /* CheryBlossomFlowerPath.swift */,
+				30EAD51E2976732400332218 /* LotusFlowerPath.swift */,
+				30A629912979BCF100437F01 /* HeartShapePath.swift */,
+				300F496D297C76260098F8AF /* IrisDomesticaPath.swift */,
+				30CD64332981E96A0074ACD4 /* OrchidsPatelPath.swift */,
+			);
+			path = Path;
+			sourceTree = "<group>";
+		};
+		CE167C9A296D35C900A07577 = {
+			isa = PBXGroup;
+			children = (
+				CE167CA5296D35C900A07577 /* Flowers */,
+				CE167CA4296D35C900A07577 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE167CA4296D35C900A07577 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE167CA3296D35C900A07577 /* Shapes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE167CA5296D35C900A07577 /* Flowers */ = {
+			isa = PBXGroup;
+			children = (
+				CE167CA6296D35C900A07577 /* FlowersApp.swift */,
+				CE167CBC296D5B9500A07577 /* Flower */,
+				CE167CA8296D35C900A07577 /* ContentView.swift */,
+				CE167CAA296D35CB00A07577 /* Assets.xcassets */,
+				CE167CAC296D35CB00A07577 /* Preview Content */,
+				302B8A3C29755B490037997A /* Path */,
+				CE167CBA296D540700A07577 /* Hexadexagon.swift */,
+			);
+			path = Flowers;
+			sourceTree = "<group>";
+		};
+		CE167CAC296D35CB00A07577 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE167CAD296D35CB00A07577 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE167CBC296D5B9500A07577 /* Flower */ = {
+			isa = PBXGroup;
+			children = (
+				302B8A4329758B090037997A /* NormalFlower.swift */,
+				CE167CB4296D4F2000A07577 /* ApricotFlower.swift */,
+				302B8A3F29755EB50037997A /* YellowDaisyFlower.swift */,
+				302B8A4529758EA00037997A /* MarigoldFlower.swift */,
+				CE167CB6296D4F4400A07577 /* CherryBlossom .swift */,
+				30081973297735FB008354C2 /* TuberoseFlower.swift */,
+				302B8A4B2975AB600037997A /* DaisyFlower.swift */,
+				302B8A4D2975B5CB0037997A /* GattungCamelliaFlower.swift */,
+				30EAD52029767ADA00332218 /* Sunflower.swift */,
+				300819752977369B008354C2 /* RoseMyrtleFlower.swift */,
+				30A629932979BDFE00437F01 /* FourLeafClover.swift */,
+				300F496B297C73D70098F8AF /* IrisDomesticaFlower.swift */,
+				30EAD51C29766A3A00332218 /* LotusFlower.swift */,
+				302B8A492975A3D40037997A /* RoseFlower.swift */,
+				30CD64312981E27A0074ACD4 /* OrchidsFlower.swift */,
+			);
+			path = Flower;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE167CA2296D35C900A07577 /* Shapes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE167CB1296D35CB00A07577 /* Build configuration list for PBXNativeTarget "Shapes" */;
+			buildPhases = (
+				CE167C9F296D35C900A07577 /* Sources */,
+				CE167CA0296D35C900A07577 /* Frameworks */,
+				CE167CA1296D35C900A07577 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shapes;
+			productName = Flowers;
+			productReference = CE167CA3296D35C900A07577 /* Shapes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE167C9B296D35C900A07577 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CE167CA2296D35C900A07577 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = CE167C9E296D35C900A07577 /* Build configuration list for PBXProject "Shapes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE167C9A296D35C900A07577;
+			productRefGroup = CE167CA4296D35C900A07577 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE167CA2296D35C900A07577 /* Shapes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE167CA1296D35C900A07577 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE167CAE296D35CB00A07577 /* Preview Assets.xcassets in Resources */,
+				CE167CAB296D35CB00A07577 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE167C9F296D35C900A07577 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE167CBB296D540700A07577 /* Hexadexagon.swift in Sources */,
+				CE167CB9296D52C400A07577 /* DrawingPath.swift in Sources */,
+				30EAD51D29766A3A00332218 /* LotusFlower.swift in Sources */,
+				CE167CA9296D35C900A07577 /* ContentView.swift in Sources */,
+				30A629942979BDFE00437F01 /* FourLeafClover.swift in Sources */,
+				302B8A4C2975AB600037997A /* DaisyFlower.swift in Sources */,
+				302B8A4029755EB50037997A /* YellowDaisyFlower.swift in Sources */,
+				300819762977369B008354C2 /* RoseMyrtleFlower.swift in Sources */,
+				302B8A4429758B090037997A /* NormalFlower.swift in Sources */,
+				302B8A4629758EA00037997A /* MarigoldFlower.swift in Sources */,
+				302B8A4E2975B5CB0037997A /* GattungCamelliaFlower.swift in Sources */,
+				302B8A42297587C80037997A /* NormalFlowerPath.swift in Sources */,
+				CE167CB5296D4F2000A07577 /* ApricotFlower.swift in Sources */,
+				CE167CA7296D35C900A07577 /* FlowersApp.swift in Sources */,
+				300F496C297C73D70098F8AF /* IrisDomesticaFlower.swift in Sources */,
+				30CD64342981E96A0074ACD4 /* OrchidsPatelPath.swift in Sources */,
+				300F496E297C76260098F8AF /* IrisDomesticaPath.swift in Sources */,
+				30081974297735FB008354C2 /* TuberoseFlower.swift in Sources */,
+				CE167CB7296D4F4400A07577 /* CherryBlossom .swift in Sources */,
+				30A629922979BCF100437F01 /* HeartShapePath.swift in Sources */,
+				30EAD52129767ADA00332218 /* Sunflower.swift in Sources */,
+				302B8A48297596FB0037997A /* CheryBlossomFlowerPath.swift in Sources */,
+				302B8A4A2975A3D40037997A /* RoseFlower.swift in Sources */,
+				302B8A3E29755B8D0037997A /* ChrysanthemumPath.swift in Sources */,
+				30EAD51F2976732400332218 /* LotusFlowerPath.swift in Sources */,
+				30CD64322981E27A0074ACD4 /* OrchidsFlower.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE167CAF296D35CB00A07577 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE167CB0296D35CB00A07577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE167CB2296D35CB00A07577 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Flowers/Preview Content\"";
+				DEVELOPMENT_TEAM = TC6Y6GF2PT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anand.shapes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE167CB3296D35CB00A07577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Flowers/Preview Content\"";
+				DEVELOPMENT_TEAM = TC6Y6GF2PT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anand.shapes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE167C9E296D35C900A07577 /* Build configuration list for PBXProject "Shapes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE167CAF296D35CB00A07577 /* Debug */,
+				CE167CB0296D35CB00A07577 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE167CB1296D35CB00A07577 /* Build configuration list for PBXNativeTarget "Shapes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE167CB2296D35CB00A07577 /* Debug */,
+				CE167CB3296D35CB00A07577 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE167C9B296D35C900A07577 /* Project object */;
+}
