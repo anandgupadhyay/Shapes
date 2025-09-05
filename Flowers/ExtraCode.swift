@@ -33,3 +33,16 @@ struct ContentView: View {
             .padding()
     }
 }
+
+//======Repeat to Create Pattern======//
+struct PatternView: View {
+    var body: some View {
+        HStack(spacing: 4) {
+            ForEach(0..<10) { _ in
+                LineAndHalfCircleShape()
+                    .stroke(Color.blue, lineWidth: 2)
+                    .frame(width: 24, height: 12)
+            }
+        }
+    }
+}
