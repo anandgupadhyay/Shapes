@@ -1,0 +1,24 @@
+struct LineAndHalfCircleShape: Shape {
+    func path(in rect: CGRect) -> Path {
+        var path = Path()
+        
+        // Draw a horizontal line from left to center
+        let start = CGPoint(x: rect.minX, y: rect.midY)
+        let mid = CGPoint(x: rect.midX, y: rect.midY)
+        path.move(to: start)
+        path.addLine(to: mid)
+        
+        // Draw a half circle (semicircle) on the right side
+        let radius = rect.width / 4
+        let center = CGPoint(x: rect.midX + radius, y: rect.midY)
+        path.addArc(
+            center: center,
+            radius: radius,
+            startAngle: .degrees(180),
+            endAngle: .degrees(0),
+            clockwise: false
+        )
+        
+        return path
+    }
+}
