@@ -22,3 +22,14 @@ struct LineAndHalfCircleShape: Shape {
         return path
     }
 }
+
+//How to Use
+// Usage in your SwiftUI View
+struct ContentView: View {
+    var body: some View {
+        LineAndHalfCircleShape()
+            .stroke(Color.blue, lineWidth: 4)
+            .frame(width: 200, height: 100)
+            .padding()
+    }
+}
